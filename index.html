@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      .header {
+        padding: 1px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      .sections {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         width: 200px;
+         background-color: #f1f1f1;
+      }
+
+      li a {
+         display: block;
+         color: #000;
+         padding: 8px 16px;
+         text-decoration: none;
+      }
+
+      .topnav a:hover {
+        background-color: #fafafa;
+        color: black;
+      }
+      .leftcolumn {
+        float: left;
+        width: 25%;
+      }
+      .rightcolumn {
+        float: left;
+        width: 75%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+
+
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Technical Documentation</title>
+</head>
+<body>
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <nav class="topnav" id="navbar">
+                <header></header>
+                <ul class="sections">
+                    <li><a href="#Ingredients" class="nav-link">
+                        Ingredients
+                    </a></li>
+                    <li><a href="#Marination" class="nav-link">
+                        Marination
+                    </a></li>
+                    <li><a href="#Preparing_Flavored_Rice" class="nav-link">
+                        Preparing Flavored Rice
+                    </a></li>
+                    <li><a href="#Biriyani_gravy" class="nav-link">
+                        Biriyani Gravy
+                    </a></li>
+                    <li><a href="#Layering" class="nav-link">
+                        Layering
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="rightcolumn">
+
+        <div class="header">
+            <h1>Steps to prepare Chicken Biriyani</h1>
+        </div>
+        <main id="main-doc">
+
+            <div class="card">
+                <section class="main-section" id="Ingredients">
+                    <header>Ingredients</header>
+                    <code>Servings: 4</code>
+                    <ul>
+                        <li>2 lbs chicken drumsticks</li>
+                        <li>1 cup curd</li>
+                        <li>5-6 green chillies</li>
+                        <li>1 tsp cumin</li>
+                        <li>100 gms fried onion(Birista)</li>
+                        <li>1/4th tsp tumeric</li>
+                        <li>1 tbsp biriyani masala powder</li>
+                        <li>1/2 tsp red chilly powder</li>
+                        <li>1/2 cup of finely chopped coriander leaves</li>
+                        <li>1/4 cup of finely chopped mint leaves</li>
+                        <li>whole spices(cassia, cloves, cardamom , bay leaf , stone flower , pepper corns , start anise
+                            )
+                        </li>
+                        <li>1 tsp garam masala</li>
+                        <li>2 tbsp ghee(clarified butter)</li>
+                        <li>3 tbsp oil</li>
+                        <li>2 cups long grain basmati rice</li>
+                        <li>1 tbsp ginger garlic paste</li>
+                        <li>1 tomato finely chopped</li>
+                        <li>salt to taste</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="card">
+                <section class="main-section" id="Marination">
+                    <header>Marination</header>
+                    <code>This step brings depth of flavors into the dish</code>
+                    <p>In a bowl add in the birista, yogurt, chopped coriander leaves, chopped mint leaves, salt ,
+                        chopped green chillies , red chili powder, turmeric powder , ginger-garlic paste and garam
+                        masala.</p>
+                    <p> Mix the marination well, add in the drumsticks(make some incisions on them for absorbing the
+                        marination) and mix well. Cover and let it marinate for 1 hour.</p>
+                </section>
+            </div>
+            <div class="card">
+                <section class="main-section" id="Preparing_Flavored_Rice">
+                    <header>Preparing Flavored Rice</header>
+                    <code>Flavored rice adds more dimension to the dish.</code>
+                    <p>Soak rice for 1 hour. Boil 8 cups of water, add salt to season the water and oil from the
+                        birista. add the soaked rice and boil till 75% done.</p>
+                    <p>Drain the rice and spread in a plate.</p>
+                </section>
+            </div>
+            <div class="card">
+                <section class="main-section" id="Biriyani_gravy">
+                    <header>Biriyani gravy</header>
+                    <code>Preparing the best part.</code>
+                    <p>In a pan add in the oil and ghee. Once hot, cumin seeds and after they sizzle, goes in cardamom
+                        pods, cloves, peppercorns, bay leaves and star anise.
+                        Add in the chopped onions and cook till they are golden.</p>
+                    <p>Add the chopped tomatoes and salt. Cook till the tomatoes are mushy, then add the marinated
+                        mixture and cook until the drumsticks are tender.</p>
+                </section>
+            </div>
+            <div class="card">
+                <section class="main-section" id="Layering">
+                    <header>Layering</header>
+                    <code>This is where the magic happens.</code>
+                    <p>To begin layering the biryani take heavy bottom pan and grease with clarified butter.
+                        Add a layer of rice , sprinkle biriyani masala powder , add some birista and
+                        on top of this add the gravy.</p>
+                    <p>Top it with one more layer of rice and birista and some ghee.
+                        Cover and simmer for 30 minutes , seal the lid to prevent steam from escaping
+                        Open the pan, serve the biriyani.</p>
+                    <p>Tip : You can add cashews in between layers to add extra texture.</p>
+                    <p>Bon Appetite!</p>
+                </section>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+</html>
